@@ -1,6 +1,6 @@
 *.log
 
-
+.DS_Store
 .htaccess
 index.php
 license.txt
@@ -19,13 +19,35 @@ wp-settings.php
 wp-signup.php
 wp-trackback.php
 xmlrpc.php
+
+._.DS_Store
+._.htaccess
+._index.php
+._license.txt
+._readme.html
+._wp-activate.php
+._wp-blog-header.php
+._wp-comments-post.php
+._wp-config-sample.php
+._wp-config.php
+._wp-cron.php
+._wp-links-opml.php
+._wp-load.php
+._wp-login.php
+._wp-mail.php
+._wp-settings.php
+._wp-signup.php
+._wp-trackback.php
+._xmlrpc.php
+
 wp-admin/
 wp-includes/
 
 
 wp-content/index.php
+wp-content/._index.php
 wp-content/languages
 wp-content/plugins
 wp-content/upgrade
 wp-content/themes/impreza/
-wp-content/index.php
+wp-content/._index.php
