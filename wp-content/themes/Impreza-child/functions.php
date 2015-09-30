@@ -1,6 +1,7 @@
 <?php
 /* Custom functions code goes here. */
 
+test
 
 //its a test
 //this is a new test
