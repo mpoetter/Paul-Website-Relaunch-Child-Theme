@@ -1,9 +1,14 @@
 <?php
-/* Custom functions code goes here. */
+/**
+ * Theme Name child theme functions and definitions
+ */
 
-test
+/*—————————————————————————————————————————*/
+/* Include the parent theme style.css
+/*—————————————————————————————————————————*/
 
-//its a test
-//this is a new test
-//this is a test from Masrcels Computer :D
-//test2
+add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
+function theme_enqueue_styles() {
+    wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
+
+}
